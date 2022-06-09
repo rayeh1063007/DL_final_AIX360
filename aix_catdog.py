@@ -15,7 +15,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "5"
 data_file = '/home/rayeh/Desktop/Project/data/dogs_vs_cats_photos.npy'
 label_file = '/home/rayeh/Desktop/Project/data/dogs_vs_cats_labels.npy'
 #選擇要解釋的影像(可選擇: 0~2499)===
-image_id = 443
+image_id = 1111
 
 model_path = pathlib.Path().absolute()
 print(model_path)
