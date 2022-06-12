@@ -236,7 +236,7 @@ print('Done')
 
 # #訓練model or 讀取model============
 # print('train model...')
-# cnn_model = train(cat_dog_data, "model/catdog", [32, 32, 64, 64, 200, 200], num_epochs=20)
+# cnn_model = train(cat_dog_data, "model/catdog", [32, 32, 64, 64, 200, 200], num_epochs=12)
 # print('Done')
 
 # load model using its json and wt files
